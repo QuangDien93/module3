@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 0.9em;
+}
+
+header {
+    top: 0;
+    position: sticky;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+nav{
+    top: 100px;
+    position: sticky;
+    background-color: white;
+}
+footer{
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+
+main{
+    display: flex;
+}
+
+section {
+    flex: 70%;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+aside {
+    padding: 10px;
+    flex: 30%;
+    margin: 10px;
+    background: lightgrey;
+}
+
+article {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+
